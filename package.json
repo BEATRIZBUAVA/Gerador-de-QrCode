@@ -1,0 +1,16 @@
+{
+  "name": "gerador-qrcode-ecommerce",
+  "version": "1.0.0",
+  "description": "Gerador de QR Codes para links de produtos de e-commerce via terminal.",
+  "main": "src/qrcode-cli.js",
+  "scripts": {
+    "start": "node src/qrcode-cli.js"
+  },
+  "keywords": ["qrcode", "ecommerce", "cli", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.3",
+    "dotenv": "^16.0.3"
+  }
+}
